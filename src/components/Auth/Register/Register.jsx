@@ -14,11 +14,16 @@ export default function Register() {
       <div id="formContent">
         {/* Tabs Titles */}
         <h2 className={styles.active}> Đăng ký </h2>
-        <h2 onClick={()=>{
-          // <Redirect to="/login"/>
-        }} className={cx(styles.inactive, styles.underlineHover)}> Đăng nhập </h2>
-        <div className={cx(styles.fadeIn, styles.first)}>
-        </div>
+        <h2
+          onClick={() => {
+            // <Redirect to="/login"/>
+          }}
+          className={cx(styles.inactive, styles.underlineHover)}
+        >
+          {" "}
+          Đăng nhập{" "}
+        </h2>
+        <div className={cx(styles.fadeIn, styles.first)}></div>
         {/* Login Form */}
         <form>
           <input
@@ -34,7 +39,7 @@ export default function Register() {
             className={cx(styles.fadeIn, styles.third)}
             name="password"
             placeholder="Mật khẩu"
-          />    
+          />
           <input
             type="text"
             id="lastName"
@@ -61,9 +66,10 @@ export default function Register() {
             id="idCard"
             className={cx(styles.fadeIn, styles.seventh)}
             name="idCard"
+            min="0"
             placeholder="CMND/CCCD"
           />
-          <div className={cx(styles.fadeIn, styles.dateOfBirth,styles.eighth)}>
+          <div className={cx(styles.fadeIn, styles.dateOfBirth, styles.eighth)}>
             <div>NGÀY SINH</div>
             <DatePicker onChange={onChange} />
           </div>

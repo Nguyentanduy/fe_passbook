@@ -18,7 +18,7 @@ export default function Login() {
         {/* Login Form */}
         <form>
           <input
-            type="text"
+            type="email"
             id="email"
             className={cx(styles.fadeIn, styles.second)}
             name="email"
