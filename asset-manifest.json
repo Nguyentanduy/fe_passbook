@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e055955d.css",
-    "main.js": "/static/js/main.2ad0c5b6.js",
-    "index.html": "/index.html",
-    "main.e055955d.css.map": "/static/css/main.e055955d.css.map",
-    "main.2ad0c5b6.js.map": "/static/js/main.2ad0c5b6.js.map"
+    "main.css": "/fe_passbook/static/css/main.7c4cee02.css",
+    "main.js": "/fe_passbook/static/js/main.97e5d43b.js",
+    "static/media/passbook-1.jpg": "/fe_passbook/static/media/passbook-1.904c75c5e2bb88456dfa.jpg",
+    "index.html": "/fe_passbook/index.html",
+    "main.7c4cee02.css.map": "/fe_passbook/static/css/main.7c4cee02.css.map",
+    "main.97e5d43b.js.map": "/fe_passbook/static/js/main.97e5d43b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e055955d.css",
-    "static/js/main.2ad0c5b6.js"
+    "static/css/main.7c4cee02.css",
+    "static/js/main.97e5d43b.js"
   ]
 }
