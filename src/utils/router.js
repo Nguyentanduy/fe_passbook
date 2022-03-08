@@ -32,4 +32,11 @@ export const routerList = [
         element: <ForgotPassword />,
         exact: true
     },
+    {
+        path: '/passbook',
+        name: 'passbook',
+        displayName: 'PassBook',
+        element: "",
+        exact: true
+    },
 ]

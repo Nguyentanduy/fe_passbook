@@ -3,7 +3,7 @@ import { authApi } from "../../api/AuthApi";
 
 const initialState = {
     // contructer
-    user=[]
+    user:[]
 }
 export const loginAsync = createAsyncThunk(
     'auth/login',
