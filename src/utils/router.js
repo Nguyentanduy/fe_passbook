@@ -2,6 +2,7 @@ import ForgotPassword from "../components/Auth/ForgotPassword/ForgotPassword";
 import Login from "../components/Auth/Login/Login";
 import Register from "../components/Auth/Register/Register";
 import Home from "../containers/Client/page/Home/Home";
+import PassBook from "../containers/Client/page/PassBook/PassBook";
 
 export const routerList = [
     {
@@ -36,7 +37,7 @@ export const routerList = [
         path: '/passbook',
         name: 'passbook',
         displayName: 'PassBook',
-        element: "",
+        element: <PassBook/>,
         exact: true
     },
 ]

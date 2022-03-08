@@ -3,12 +3,15 @@ import styles from "./style.module.scss";
 import cx from "classnames";
 import "antd/dist/antd.css";
 import { DatePicker } from "antd";
+import { useNavigate } from 'react-router';
 // import { Redirect } from 'react-router'
 
 export default function Register() {
   function onChange(date, dateString) {
     console.log(date, dateString);
   }
+  const navigate = useNavigate();
+
   return (
     <div className={cx(styles.wrapper, styles.fadeInDown)}>
       <div id="formContent">
@@ -17,6 +20,7 @@ export default function Register() {
         <h2
           onClick={() => {
             // <Redirect to="/login"/>
+            navigate('/login')
           }}
           className={cx(styles.inactive, styles.underlineHover)}
         >
